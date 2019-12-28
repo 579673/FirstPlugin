@@ -1,0 +1,12 @@
+main: no.datsuag.Main
+name: FirstPlugin
+version: 1.0
+author: me
+description: My first plugin
+commands: 
+   testcommand:
+      description: Test command  
+      usage: /testcommand
+      permission: firstplugin.mycommand
+      permission-message: You don't have permission to use this command
+      
